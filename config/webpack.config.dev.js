@@ -169,6 +169,7 @@ module.exports = {
               {
                 loader: require.resolve('postcss-loader'),
                 options: {
+                  sourceMap: true,
                   // Necessary for external CSS imports to work
                   // https://github.com/facebookincubator/create-react-app/issues/2677
                   ident: 'postcss',
@@ -187,10 +188,7 @@ module.exports = {
                 },
               },
               {
-                loader: 'stylus-loader',
-                options: {
-                  sourcemap: true
-                }
+                loader: require.resolve('stylus-loader')
               }
             ],
           },
