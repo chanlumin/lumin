@@ -33,7 +33,7 @@ class Col extends React.Component {
     const colClass = classNames({
       [`lui-col-${this.props.span}`]:true, 
       [`lui-offset-${this.props.offset}`]:true, 
-      ['lui-col']:true
+      'lui-col':true
     })
     this.setState({colClass})
   }
