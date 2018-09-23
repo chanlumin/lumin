@@ -1,0 +1,38 @@
+{
+  "code" : 0,
+  "data" : [
+    {
+      "_id" : "1",
+      "title": "文章",
+      "path" : "/passage",
+      "children" : [
+        {
+          "_id" : "2",
+          "title": "前端",
+          "path" : "/frontend"
+          
+        },
+        {
+          "_id" : "3",
+          "title": "后端",
+          "path" : "/backend"
+        },
+        {
+          "_id" : "4",
+          "title": "设计模式",
+          "path" : "/design"
+        }
+      ]
+    },
+    {
+      "_id" : "5",
+      "title" : "生活",
+      "path" : "life"
+    },
+    {
+      "_id" : "6",
+      "title" : "日志",
+      "path" : "/diary"
+    }
+  ]
+}
