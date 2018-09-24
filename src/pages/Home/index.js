@@ -4,6 +4,7 @@ import Layout from '../../component/layout/layout';
 import Row from '../../base/row'
 import Col from  '../../base/col'
 import Search from '../../component/search';
+import PassageList from '../../component/passagelist'
 
 class Home extends Component {
   render() {
@@ -16,7 +17,9 @@ class Home extends Component {
               <Search></Search>
             </Col>
             <Col span="1"></Col>
-            <Col span="16" offset="1">content</Col>
+            <Col span="16" offset="1">
+              <PassageList></PassageList>
+            </Col>
           </Row>
         </Layout>
       </div>
