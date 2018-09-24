@@ -6,7 +6,8 @@ class Row extends React.Component {
     gutter: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.number
-    ])
+    ]),
+    className: PropTypes.string
   }
   constructor(props) {
     super(props)
@@ -29,7 +30,7 @@ class Row extends React.Component {
   }
   render() {
     return (
-    <div className="lui-row" style={this.state.style}>
+    <div className={`lui-row ${this.props.className}`} style={this.state.style}>
       {this.props.children}
     </div>
     )
